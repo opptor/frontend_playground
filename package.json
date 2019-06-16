@@ -1,0 +1,27 @@
+{
+  "name": "frontend_playground",
+  "version": "1.0.0",
+  "description": "Toolchain and workflow for builind modern frontends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/opptor/frontend_playground.git"
+  },
+  "keywords": [
+    "frontend",
+    "js",
+    "css",
+    "scss",
+    "es6",
+    "html"
+  ],
+  "author": "Torsten Oppermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opptor/frontend_playground/issues"
+  },
+  "homepage": "https://github.com/opptor/frontend_playground#readme"
+}
