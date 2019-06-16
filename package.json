@@ -2,9 +2,10 @@
   "name": "frontend_playground",
   "version": "1.0.0",
   "description": "Toolchain and workflow for builind modern frontends",
-  "main": "index.js",
+  "main": "run.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/opptor/frontend_playground/issues"
   },
-  "homepage": "https://github.com/opptor/frontend_playground#readme"
+  "homepage": "https://github.com/opptor/frontend_playground#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "fs": "0.0.1-security",
+    "node-watch": "^0.6.2",
+    "sass": "^1.21.0"
+  }
 }
